@@ -1,0 +1,63 @@
+.market-overview {
+    margin-bottom: 30px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .market-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .market-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    margin-bottom: 15px;
+  }
+  
+  .card-header h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .symbol {
+    background-color: #f1f5f9;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #64748b;
+  }
+  
+  .card-body .price {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .change {
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  .change.positive {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+  }
+  
+  .change.negative {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+  }
+
+  
